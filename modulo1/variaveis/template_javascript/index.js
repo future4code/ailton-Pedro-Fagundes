@@ -20,29 +20,18 @@ let t = prompt("Quanto voce recebe por dia?")
 
 */
 
-let nome = null 
-let idade = null
-console.log(nome, idade)
-// Foi impresso assim pois nao foi atribuido nenhum valor a variavel
+// let nome = null 
+// let idade = null
+// console.log(nome, idade)
+// // Foi impresso assim pois nao foi atribuido nenhum valor a variavel
 
-nome = prompt("Qual o seu nome?")
-idade = prompt("Quantos anos voce tem?")
-console.log(nome, idade)
-console.log(typeof nome, typeof idade)
+// nome = prompt("Qual o seu nome?")
+// idade = prompt("Quantos anos voce tem?")
+// console.log(nome, idade)
+// console.log(typeof nome, typeof idade)
 // O tipo dessas variaveis sao string
 
-console.log("Ola", nome, "voce tem", idade, "anos")
 
-let pergunta1 = prompt("Voce trabalha?") 
-let pergunta2 = prompt("Voce gosta de ir ao cinema?")
-let pergunta3 = prompt("Voce gosta de pizza?")
-
-let a = "nao"
-let b = "sim"
-let c = "sim"
-console.log("Voce trabalha?", a)
-console.log("Voce gosta de ir ao cinema?", b)
-console.log("Voce gosta de pizza?", c)
 
 //
 
@@ -55,5 +44,16 @@ console.log("Voce gosta de pizza?", c)
 // b = c
 
 // console.log(a, b, c)
+
+//
+//
+//
+//
+
+
+
+
+
+
 
 
