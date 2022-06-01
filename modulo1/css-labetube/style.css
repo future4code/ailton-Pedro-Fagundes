@@ -5,12 +5,109 @@
     
 }
 
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 9999999;
+}
+
+.logo{
+    font-size: 36px;
+}
+
+.login-container{
+    display: flex;
+    gap: 50px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 78px;
+}
+
 .container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: coral;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px 0 20px;
+    position: relative;
+    align-items: center;
+}
+
+.video{
+    width: 200px;
+}
+
+.video-container{
+    display: flex;
+    max-width: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    
+}
+
+@media(max-width:697px){
+    footer{
+        position: relative;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    input{
+        max-width: 80px;
+    }
+    .login-container{
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+/* .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 10vh 80vh  10vh;
-    height: 100vh;
+    height: 100%;
     
+    
+}
+
+.login-container{
+ display: flex;   
+justify-content: center;
+ gap: 50px;
 }
 
 h1{
@@ -22,9 +119,13 @@ header{
     align-items: center;
     background-color: burlywood;
     grid-column: 1/-1;
-}
+    grid-template-columns: 1fr 1fr;
+    /* min-width: 400px;
+    max-width: 1000px; */
 
-main{
+
+
+/* main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
@@ -32,13 +133,17 @@ main{
     padding: 20px;
     justify-items: center;
     align-items: center;
+    background-color: bisque;
+    min-width: 300px;
+    
     
 }
 
 
 video{
     height: 130px;  
-}
+    /* width: 100%; */
+/* }
 
 p{
     display: grid;
@@ -51,10 +156,10 @@ input{
     width: 200px;
     grid-column: 5/5;   
     
-}
+} */
 
 
-footer{
+/* footer{
     display: grid;
     grid-column: 1/-1;
     background-color: brown;
@@ -62,3 +167,13 @@ footer{
     
 }
 
+@media(max-width:768px){
+    footer{
+        background-color: blue;
+    }
+    main{
+        grid-template-columns: 1fr 1fr;
+    
+        
+    }
+} */ 
